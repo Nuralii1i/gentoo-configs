@@ -2,6 +2,7 @@
 
 #### 介绍
 用Arch的genfstab脚本生成fstab,主要用于Gentoo生成fstab
+
 拷贝自大佬[YangMaMe](https://blog.yangmame.org)的[Github仓库](https://Github.com/yangmame/Gentoo-Installer),目的仅为网络加速
 
 #### 如何使用
