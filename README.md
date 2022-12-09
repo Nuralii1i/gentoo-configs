@@ -10,7 +10,7 @@
 ```
 git clone https://gitee.com/nuralii1i/gentoo-fstab.git
 cd gentoo-fstab
-cdmod +x genfstab
+chmod +x genfstab
 ./genfstab / > /etc/fstab  #在chroot下
 vim /etc/fstab             #检查fstab，删除多余挂载点
 
