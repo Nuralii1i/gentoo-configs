@@ -8,8 +8,8 @@
 #### 如何使用
 
 ```
-git clone https://gitee.com/nuralii1i/gentoo-fstab.git
-cd gentoo-fstab
+git clone https://github.com/Nuralii1i/gentoo-configs.git
+cd gentoo-configs/genfstab
 chmod +x genfstab
 ./genfstab / > /etc/fstab  #在chroot下
 vim /etc/fstab             #检查fstab，删除多余挂载点
