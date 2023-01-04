@@ -10,8 +10,8 @@
 ```
 git clone https://github.com/Nuralii1i/gentoo-configs.git
 cd gentoo-configs/genfstab
-chmod +x genfstab
-./genfstab / > /etc/fstab  #在chroot下
-vim /etc/fstab             #检查fstab，删除多余挂载点
+chmod +x generate-fstab
+./generate-fstab / > /etc/fstab  #在chroot下
+vim /etc/fstab                   #检查fstab，删除多余挂载点
 
 ```
